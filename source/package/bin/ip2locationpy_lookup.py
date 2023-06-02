@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# # Copyright (C) 2005-2016 IP2Location.com
+# # Copyright (C) 2005-2023 IP2Location.com
 # All Rights Reserved
 #
 # This library is free software: you can redistribute it and/or
@@ -89,6 +89,9 @@ def main():
             result["usage_type"] = ip2locationresponse.usage_type
             result["address_type"] = ip2locationresponse.address_type
             result["category"] = ip2locationresponse.category
+			result["district"] = ip2locationresponse.district
+			result["as_number"] = ip2locationresponse.asn
+			result["as_name"] = ip2locationresponse.as
         w.writerow(result)
     ip2locationdatabase.close()
     ip2proxydatabase.close()
