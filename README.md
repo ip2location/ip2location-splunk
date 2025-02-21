@@ -1,12 +1,12 @@
 # IP2Location Splunk Add-on
 
-This supporting add-on (SA) for Splunk advanced IP information enrichment using the IP2Location and IP2Proxy databases distributed by IP2Location.  This App was inspired and based on seckit_sa_geolocation developed by Ryan Faircloth.  seckit_sa_geolocation can be found on the Public Splunk github repo https://github.com/splunk/seckit_sa_geolocation and SplunkBase https://splunkbase.splunk.com/app/3022/
+This supporting add-on (SA) for Splunk advanced IP information enrichment using the IP2Location and IP2Proxy databases distributed by IP2Location.  This App was inspired and based on `seckit_sa_geolocation` developed by Ryan Faircloth.  `seckit_sa_geolocation` can be found on the Public Splunk github repo https://github.com/splunk/seckit_sa_geolocation and SplunkBase https://splunkbase.splunk.com/app/3022/
 
 Built to work with:
 
 * Linux Host
-* IP2Location DB ([Free Database](https://lite.ip2location.com) or [Commercial Database](https://www.ip2location.com/database/ip2location))
-* IP2Proxy DB ([Free Database](https://lite.ip2location.com/ip2proxy-lite) or [Commercial Database](https://www.ip2location.com/database/ip2proxy))
+* IP2Location Database ([Free Database](https://lite.ip2location.com) or [Commercial Database](https://www.ip2location.com/database/ip2location))
+* IP2Proxy Database ([Free Database](https://lite.ip2location.com/ip2proxy-lite) or [Commercial Database](https://www.ip2location.com/database/ip2proxy))
 
 # Installation 
 
