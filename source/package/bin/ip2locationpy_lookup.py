@@ -66,6 +66,7 @@ def main():
             result["last_seen"] = ip2proxyresponse['last_seen']
             result["threat"] = ip2proxyresponse['threat']
             result["provider"] = ip2proxyresponse['provider']
+            result["fraud_score"] = ip2proxyresponse['fraud_score']
         if ip2locationlookupfileavaliable == 1:
             #print(f'ipfield:{result[ipfield]}')
             ip2locationresponse = ip2locationdatabase.get_all(result[ipfield])

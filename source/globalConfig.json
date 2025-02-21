@@ -314,15 +314,15 @@
                         {
                             "field": "database_code",
                             "label": "Database Code",
-                            "help": "1) DBCLEAN=Removes ip2locationgeodb.bin if exists. PXCLEAN=Removes ip2locationproxydb.bin if exists. Download of bin will not be performed. 2) Example DB Codes: PX11LITEBINIPV6 OR DB11LITEBINIPV6.",
+                            "help": "1) DBCLEAN=Removes ip2locationgeodb.bin if exists. PXCLEAN=Removes ip2locationproxydb.bin if exists. Download of bin will not be performed. 2) Example DB Codes: PX12LITEBINIPV6 OR DB26LITEBINIPV6.",
                             "required": true,
                             "type": "text",
-                            "defaultValue": "##IP2LOCATION Database Code.  Examples: PX11LITEBINIPV6 OR DB11LITEBINIPV6",
+                            "defaultValue": "##IP2LOCATION Database Code.  Examples: PX12LITEBINIPV6 OR DB26LITEBINIPV6",
                             "validators": [
                                 {
                                     "type": "regex",
-                                    "pattern": "^((DB)((([1-9]|[12][0-5]))(LITE){0,1}BIN(IPV6){0,1})$)|^((PX)((([1-9]|[1][0-1]))(LITE){0,1}BIN(IPV6){0,1})$)|^(DB|PX)CLEAN$",
-                                    "errorMsg": "Value must be (DB|PX)(1-25)[LITE]BIN[IPV6] OR special use case (DB|PX)CLEAN"
+                                    "pattern": "^((DB)((([1-9]|[12][0-6]))(LITE){0,1}BIN(IPV6){0,1})$)|^((PX)((([1-9]|[12][0-1]))(LITE){0,1}BIN(IPV6){0,1})$)|^(DB|PX)CLEAN$",
+                                    "errorMsg": "Value must be (DB|PX)(1-26)[LITE]BIN[IPV6] OR special use case (DB|PX)CLEAN"
                                 }
                             ]
                         },
